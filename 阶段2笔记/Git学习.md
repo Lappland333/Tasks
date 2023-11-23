@@ -10,12 +10,12 @@
 * 常见Git Bash的命令
 >这里列出了推送本地文件至Github仓库所需要的代码
 
-git init //把这个目录变成Git可以管理的仓库
-git add README.md //文件添加到仓库
-git add . //加入当前目录下的文件
-git commit -m "文件名" //把文件提交到仓库
-git remote add origin “地址” //关联远程仓库
-git push -u origin master //把本地库的所有内容推送到远程库上
+git init //把这个目录变成Git可以管理的仓库<br>
+git add README.md //文件添加到仓库<br>
+git add . //加入当前目录下的文件<br>
+git commit -m "文件名" //把文件提交到仓库<br>
+git remote add origin “地址” //关联远程仓库<br>
+git push -u origin master //把本地库的所有内容推送到远程库上<br>
 
 * 推入本地文件时遇到的问题
 
