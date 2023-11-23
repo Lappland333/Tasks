@@ -8,7 +8,7 @@
 
 > HTML经历了很多次版本迭代，这里以HTML 5为准
 >
-> 这里列出了我认为比较常用的标签，方便日后查阅
+> 这里列出了我认为比较常用的标签
 
 **基础**	 
 
@@ -25,100 +25,61 @@
 |&lt;!--...--&gt;| 定义一个注释|
 
 **格式**	 
-abbr>	定义一个缩写。
-address>	定义文档作者或拥有者的联系信息。
-b>	定义粗体文本。
-cite>	定义引用(citation)。
-code>	定义计算机代码文本。
-del>	定义被删除文本。
-dfn>	定义定义项目。
-em>	定义强调文本。 
-i>	定义斜体文本。
-s>	定义加删除线的文本。
-time>New	定义一个日期/时间
-u>	定义下划线文本。
-wbr>New	规定在文本中的何处适合添加换行符。
-**表单**	 
-form>	定义一个 HTML 表单，用于用户输入。
-input>	定义一个输入控件
-textarea>	定义多行的文本输入控件。
-button>	定义按钮。
-select>	定义选择列表（下拉列表）。
-optgroup>	定义选择列表中相关选项的组合。
-option>	定义选择列表中的选项。
-label>	定义 input 元素的标注。
-fieldset>	定义围绕表单中元素的边框。
-legend>	定义 fieldset 元素的标题。
-datalist>New	规定了 input 元素可能的选项列表。
-keygen>New	规定用于表单的密钥对生成器字段。
-output>New	定义一个计算的结果
-**框架**	 
-frame>	HTML5不再支持。 定义框架集的窗口或框架。
-frameset>	HTML5不再支持。定义框架集。
-noframes>	HTML5不再支持。 定义针对不支持框架的用户的替代内容。
-iframe>	定义内联框架。
+|标签|用途|
+|-----------|----------------|
+|&lt;abbr>|	定义一个缩写|
+|&lt;b>	|定义粗体文本|
+|&lt;cite>|定义计算机代码文本|
+|&lt;del>|定义被删除文本|
+|&lt;dfn>|定义定义项目|
+|&lt;em>|定义强调文本 |
+|&lt;i>|定义斜体文本|
+|&lt;s>|定义加删除线的文本|
+|&lt;time>New|定义一个日期/时间|
+|&lt;u>|定义下划线文本|
+|&lt;wbr>New|规定在文本中的何处适合添加换行符|
 **图像**	 
-img>	定义图像。
-map>	定义图像映射。
-area>	定义图像地图内部的区域。
-canvas>New	通过脚本（通常是 JavaScript）来绘制图形（比如图表和其他图像）。
-figcaption>New	定义一个 caption for a <figure> element
-figure>New	figure 标签用于对元素进行组合。
-Audio/Video	 
-audio>New	定义声音，比如音乐或其他音频流。
-source>New	定义media元素 (<video> 和 <audio>)的媒体资源。media
-track>New	为媒体(<video> 和 <audio>)元素定义外部文本轨道。
-video>New	定义一个音频或者视频
-**链接**	 
-a>	定义一个链接
-link>	定义文档与外部资源的关系。
-main>	定义文档的主体部分。
-nav>New	定义导航链接
+
+|标签|用途|
+|-----------|----------------|
+|&lt;img>	|定义图像|
+|&lt;canvas>New|通过脚本（通常是 JavaScript）来绘制图形|
+|&lt;audio>New|定义声音，比如音乐或其他音频流|
+|&lt;video>New|定义一个音频或者视频|
 **列表**	 
-ul>	定义一个无序列表
-ol>	定义一个有序列表
-li>	定义一个列表项
-dir>	HTML5不再支持。 HTML 4.01 已废弃。 定义目录列表。
-dl>	定义一个定义列表
-dt>	定义一个定义定义列表中的项目。
-dd>	定义定义列表中项目的描述。
-menu>	定义菜单列表。
-command>New	定义用户可能调用的命令（比如单选按钮、复选框或按钮）。
-表格	 
-table>	定义一个表格
-caption>	定义表格标题。
-th>	定义表格中的表头单元格。
-tr>	定义表格中的行。
-td>	定义表格中的单元。
-thead>	定义表格中的表头内容。
-tbody>	定义表格中的主体内容。
-tfoot>	定义表格中的表注内容（脚注）。
-col>	定义表格中一个或多个列的属性值。
-colgroup>	定义表格中供格式化的列组。
+|标签|用途|
+|-----------|----------------|
+|&lt;ul>|定义一个无序列表|
+|&lt;ol>|定义一个有序列表|
+|&lt;li>|定义一个列表项|
+|&lt;dl>|定义一个定义列表|
+|&lt;dt>|定义一个定义定义列表中的项目|
+|&lt;dd>|定义定义列表中项目的描述|
+|&lt;menu>|定义菜单列表|
+|&lt;command>New|定义用户可能调用的命令（比如单选按钮、复选框或按钮）|
+**表格**
+|标签|用途|
+|-----------|----------------|
+|&lt;table>|定义一个表格|
+|&lt;caption>|	定义表格标题|
+|&lt;th>|定义表格中的表头单元格|
+|&lt;tr>|定义表格中的行|
+|&lt;td>|定义表格中的单元|
 **样式/节**	 
-style>	定义文档的样式信息。
-div>	定义文档中的节。
-span>	定义文档中的节。
-header>New	定义一个文档头部部分
-footer>New	定义一个文档底部
-section>New	定义了文档的某个区域
-article>New	定义一个文章内容
-aside>New	定义其所处内容之外的内容。
-details>New	定义了用户可见的或者隐藏的需求的补充细节。
-dialog>New	定义一个对话框或者窗口
-summary>New	定义一个可见的标题。 当用户点击标题时会显示出详细信息。
-元信息	 
-head>	定义关于文档的信息
-meta>	定义关于 HTML 文档的元信息。
-base>	定义页面中所有链接的默认地址或默认目标。
-basefont>	HTML5不再支持。 HTML 4.01 已废弃。 定义页面中文本的默认字体、颜色或尺寸。
-程序	 
-script>	定义客户端脚本。
-noscript>	定义针对不支持客户端脚本的用户的替代内容。
-applet>	HTML5不再支持。 HTML 4.01 已废弃。 定义嵌入的 applet。
-embed>New	定义了一个容器，用来嵌入外部应用或者互动程序（插件）。
-object>	定义嵌入的对象。
-param>	定义对象的参数。
+|标签|用途|
+|-----------|----------------|
+|&lt;style>|定义文档的样式信息|
+|&lt;div>|定义文档中的节|
+|&lt;header>New|定义一个文档头部部分|
+|&lt;footer>New|定义一个文档底部|
+|&lt;section>New|定义了文档的某个区域|
+|&lt;article>New|定义一个文章内容|
+|&lt;aside>New|定义其所处内容之外的内容|
+|&lt;details>New|定义了用户可见的或者隐藏的需求的补充细节|
+|&lt;dialog>New|定义一个对话框或者窗口|
+|&lt;summary>New|定义一个可见的标题，当用户点击标题时会显示出详细信息|
+
+
 
 > 由于Markdown语法可以识别一些html标签，所以当想要让html标签显示出来时通常会被解析
 >
@@ -129,6 +90,8 @@ param>	定义对象的参数。
 > 且html的标签在外由`< >`围住，才能被识别为html标记语言
 >
 > 所以我们可以利用转义字符，替换掉原来的`<`或`>`,破坏标签的结构，以此达到正常显示的效果
+
+
 
 ## 块级元素与内联元素
 
@@ -170,41 +133,52 @@ param>	定义对象的参数。
 
 先展示一个简单的html
 
-```{<!DOCTYPE html>
+```{
+<!DOCTYPE html>
 <html>
   <head>
+    <style>
+       .highlight {background-color: yellow;}
+       #special {font-weight: bold;}
+    </style>
      <title>Page Title</title>
   </head>
   <body>
 
-    <h1>My First Heading</h1>
-    <p>My first paragraph.</p>
+     <h1 class="highlight">这是一个标题</h1>
+     <p id="special">这是一个段落。</p>
+     <p class="highlight">这是一个高亮的段落。</p>
 
   </body>
 </html>
 ```
 
-- 该`<!DOCTYPE html>`声明定义该文档是 HTML5 文档
+* HTML标签的样式通过CSS控制。在HTML文档中，可以使用`<style>`元素来规定浏览器如何渲染HTML文档。`<style>`元素默认情况下包含的是CSS格式的样式信息。此外，每个HTML文档可以包含多个`<style>`标签。
+* 在上面的例子中，我利用`<style>`将背景颜色设置为黄色，还使用了ID选择器来选择具有"special" ID的段落，并将其字体加粗。
 
-- 该`<html>`元素是 HTML 页面的根元素
+还有一些其他的知识点，借这个例子一并说明：
 
-- 该`<head>`元素包含有关 HTML 页面的元信息
+- `<!DOCTYPE html>`声明定义该文档是 HTML5 文档
 
-- 该`<title>`元素指定 HTML 页面的标题（显示在浏览器的标题栏或页面的选项卡中）
+- `<html>`元素是 HTML 页面的根元素
 
-- 元素`<body>`定义文档的主体，是所有可见内容的容器，例如标题、段落、图像、超链接、表格、列表等。
+- `<head>`元素包含有关 HTML 页面的元信息
 
-- 该`<h1>`元素定义了一个大标题
+- `<title>`元素指定 HTML 页面的标题（显示在浏览器的标题栏或页面的选项卡中）
 
-- 该`<p>`元素定义一个段落
+- `<body>`定义文档的主体，是所有可见内容的容器，例如标题、段落、图像、超链接、表格、列表等
 
-- body元素是p元素的父元素，
+- `<h1>`元素定义了一个大标题
 
-  p元素是body元素的子元素，
+- `<p>`元素定义一个段落
 
-  head元素，body元素和p元素都是html元素的**后代元素**，但只有head元素和body元素是html元素的子元素，
+- body元素是p元素的父元素
 
-  head元素和body元素互为**兄弟元素。**
+  p元素是body元素的子元素
+
+  head元素，body元素和p元素都是html元素的后代元素，但只有head元素和body元素是html元素的子元素
+
+  head元素和body元素互为兄弟元素
 
 ## 参考网站
 
