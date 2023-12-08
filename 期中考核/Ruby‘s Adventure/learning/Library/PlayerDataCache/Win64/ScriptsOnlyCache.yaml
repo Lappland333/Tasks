@@ -19,6 +19,7 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
+    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
@@ -719,7 +720,7 @@ ScriptsOnlyBuild:
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
-      Hash: f4e459a6b627eac25df2abe48985655b
+      Hash: 35fbddeea0f53fe023b2513b7f99a133
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: RubyController
@@ -779,7 +780,7 @@ ScriptsOnlyBuild:
     className: CinemachineVolumeSettings
   - hash:
       serializedVersion: 2
-      Hash: 2cec7167991bc615f7686d3f4d3df672
+      Hash: 1292eee39418dadde139324765b6bfe9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIHealthBar

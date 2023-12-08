@@ -14,6 +14,7 @@ public class EnemyController : MonoBehaviour
     private float timer;//计时器
     private Animator animator;
     private AudioSource audioSource;
+    public AudioClip[] hitSounds;
     private bool broken;//机器人是否修复
 
     public ParticleSystem smokeEffect;
@@ -88,6 +89,12 @@ public class EnemyController : MonoBehaviour
         rigidbody2d.simulated = false;
         animator.SetTrigger("Fixed");
         smokeEffect.Stop();
+        int randomNum = Random.Range(0, 2);
+        //float randomNum2 = Random.Range(1f,2f);
+        audioSource.Stop();
+        audioSource.volume = 0.5f;
+        audioSource.PlayOneShot(hitSounds[randomNum]);
+        Invoke("PlayFixedSound", 1f);
     }
 
 }
